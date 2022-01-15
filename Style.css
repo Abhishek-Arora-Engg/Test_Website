@@ -1,0 +1,124 @@
+body
+{
+    position: fixed;
+    background: #000000;
+}
+logo
+{
+    position: absolute;
+    width: 570px;
+    height: 110px;
+    left: 0.5em;
+    top: 0.5em;
+
+    font-family: Sacramento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vw;
+    line-height: 4vw;
+
+    color: #FFFFFF;
+}
+
+MenuOptions
+{
+    font-family: Raleway;
+    position: absolute;
+    width: 100vw;
+    height: 20px;
+    left: 30em;
+    top: 1.3em;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3vw;
+    line-height: 2vw;
+
+    color: #FFFFFF;
+}
+
+Home
+{
+    padding: 0.3em;
+    border-radius: 1vw;
+    transition: 0.3s;
+}
+Home:hover
+{
+    background-color: #FFFFFF;
+    color: black;    
+}
+
+Projects
+{
+    padding: 0.3em;
+    border-radius: 1vw;
+    transition: 0.3s;
+}
+Projects:hover
+{
+    background-color: #FFFFFF;
+    color: black;    
+}
+
+About
+{
+    padding: 0.3em;
+    border-radius: 1vw;
+    transition: 0.3s;
+}
+About:hover
+{
+    background-color: #FFFFFF;
+    color: black;    
+}
+
+#Card-1-A
+{
+    position: absolute;
+    width: 52vw;
+    height: 30vw;
+    left: 1.5vw;
+    top: 10vw;
+    
+    border-radius: 1vw 7vw 7vw 1vw; 
+    transition: 1s; 
+}
+#Card-1-A:hover
+{
+    opacity: 0;
+}
+
+#Card-1-B
+{
+    position: absolute;
+    width: 52vw;
+    height: 30vw;
+    left: 1.5vw;
+    top: 10vw;
+    
+    border-radius: 1vw 7vw 7vw 1vw;  
+    opacity: 0;
+    transition: 1s; 
+}
+#Card-1-B:hover
+{
+    opacity: 100;
+}
+
+#Para-1
+{
+    position: absolute;
+    width: 550px;
+    height: 520px;
+    left: 1vw;
+    top: 1.3em;
+
+    font-family: Ruluko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 64px;
+
+    color: #FFFFFF;
+}
